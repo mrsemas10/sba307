@@ -1,0 +1,17 @@
+body {background-color: lavender;}
+th, td {
+    border: 1px solid black
+}
+
+table {
+    border: 5px solid darkgoldenrod;
+    border: collapse
+    width: 200%;
+    height: 300px;
+    text-align: center;
+}
+ 
+td:hover {
+    background-color: lightcoral;
+    color: white
+}
