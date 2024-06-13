@@ -1,9 +1,15 @@
 body {
     background-color: lavender;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-border-width: 1px;
-border-style: solid;
-border-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+caption {
+    font-size: 25px;
+    color: green
+
 }
 
 th, td {
@@ -20,5 +26,14 @@ table {
  
 td:hover {
     background-color: lightcoral;
-    color: white
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+th:hover {
+    font-size: 50px;
+    background-color: limegreen;
+    width: 200px;
+    height: 200px;
 }
