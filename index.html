@@ -12,5 +12,60 @@
         <a href="pages/professional/professional.html">Personal Life</a>
      </nav><br><hr>
     <h1>ALL ABOUT ME!</h1>
+
+    <div id="contact">
+        THIS IS CONTACT <br/>
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="firstname">First Name:
+                <input type="text" name="firstname" id="firstname" required>
+            </label>
+
+            <br/>
+            
+            <label for="email">Email:
+                <input type="email" name="email" id="email" required>
+            </label><br>
+            <label for="phonenumber">Phone Number:
+                <input type="tel" name="phonenumber" id="phonenumber" required>
+            </label>
+            <br/><br>
+            <label for="#">What would you like to learn more about?</label>
+            <select name="items" id="">
+                <option value="blank"></option>
+                <option value="family">Family</option>
+                <option value="career">Career</option>
+                <option value="education">Education</option>
+            </select><br>
+            <input type="submit">
+            
+            <br><br><hr><hr><br>
+            <fieldset>
+                <legend>Contact Preferences</legend>
+                <label for="checkbox">Email</label>
+                <input type="checkbox" name="checkbox1" id="checkbox1">
+                <label for="checkbox">Phone</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2">
+            <!-- </fieldset> -->
+            <br/><br>
+
+            <!-- <fieldset> -->
+                <legend>What day would you like to be contacted?</legend>
+                <label for="date">First Choice</label> 
+                <input type="date" name="date" id="date1">
+                <br><label for="date">Second Choice</label> 
+                <input type="date" name="date" id="date2">
+            <!-- </fieldset> -->
+             <br><br>
+
+            <!-- <fieldset> -->
+                <legend>What time is best?</legend>
+                <label for="time">First Choice</label> 
+                <input type="time" name="time" id="time">
+                <br><label for="time">Second Choice</label> 
+                <input type="time" name="time" id="time2">
+            </fieldset> <br>
+            <input type="submit">
+        </form>
 </body>
 </html>
