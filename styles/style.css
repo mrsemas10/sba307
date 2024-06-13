@@ -6,7 +6,7 @@ border-style: solid;
 border-color: blue; */
 }
 p {
-   color: darkgreen;
+    color: darkgreen;
 }
 
 * {
@@ -24,13 +24,13 @@ p {
 
 /* }  */
 
-aside {
-    /* background-color: crimson; */
+/* aside {
+    background-color: crimson;
 }
 
 main {
-    /* background-color: darkolivegreen; */
-}
+    background-color: darkolivegreen;
+} */
 
 footer {
     background-color: burlywood;
