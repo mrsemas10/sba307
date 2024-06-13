@@ -1,12 +1,19 @@
-body {background-color: lavender;}
+body {
+    background-color: lavender;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-width: 1px;
+border-style: solid;
+border-color: blue;
+}
+
 th, td {
     border: 1px solid black
 }
 
 table {
     border: 5px solid darkgoldenrod;
-    border: collapse
-    width: 200%;
+    border: collapse;
+    width: 50%;
     height: 300px;
     text-align: center;
 }

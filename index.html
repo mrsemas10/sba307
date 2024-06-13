@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-     <nav>
-        <a href="pages/personal/personal.html">Professional Life</a>
-        <a href="pages/professional/professional.html">Personal Life</a>
+
+     <nav style="border: 2px solid brown; padding: 5px; margin: 5px; background-color: #a2cbb6;">
+        <div><a href="pages/personal/personal.html">Professional Life</a></div>
+        <div></div><a href="pages/professional/professional.html">Personal Life</a></div>
      </nav><br><hr>
-    <h1>ALL ABOUT ME!</h1>
+     <main class="flex-ctr">
+     <h2 style="color: brown">ALL ABOUT ME!</h2>
     <p>Hello everyone and welcome to my page!</p>
     <p>Here you will see a glimpse into a part of my life.</p>
     <p>Click on the links above to learn about my professional life and my personal life.</p>
@@ -23,13 +25,14 @@
             <li>I have been skydiving. (it was so much fun but I would not do it again)</li>
         </ul>
     </p>
-    <img src="https://images.pexels.com/photos/5140666/pexels-photo-5140666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="snake">
+    <img src="https://images.pexels.com/photos/5140666/pexels-photo-5140666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="snake" style="width: 400px;">
     <p>If you would like to know anything else use the 2 forms below!</p>
-
+</main>
      <hr><hr>
+     <aside class="flex-ctr">
     <div id="contact">
         
-        <h2>Contact Me!</h2>
+        <h2 style="color: brown">Contact Me!</h2>
         <form action="#">
             <label for="firstname">First Name:
                 <input type="text" name="firstname" id="firstname" required>
@@ -45,7 +48,7 @@
             </label>
             <br/><br>
             <label for="#">What would you like to learn more about?</label>
-            <select name="items" id="">
+            <select name="items" id="items">
                 <option value="blank"></option>
                 <option value="family">Family</option>
                 <option value="career">Career</option>
@@ -77,9 +80,11 @@
                 <label for="time">First Choice</label> 
                 <input type="time" name="time" id="time">
                 <br><label for="time">Second Choice</label> 
-                <input type="time" name="time" id="time2">
+                <input type="time" name="time" id="time2"><br>
+                <input type="submit">
             </fieldset> <br>
-            <input type="submit">
+        </aside>
         </form>
+        <footer class="flex-ctr" style="font-family:Verdana, Geneva, Tahoma, sans-serif; background-color:#a2cbb6;">created by me! copyright 2024</footer>
 </body>
 </html>

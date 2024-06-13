@@ -1,1 +1,66 @@
-body {background-color: lavender;}
+body {
+background-color: lavender;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* border-width: 1px;
+border-style: solid;
+border-color: blue; */
+}
+p {
+   color: darkgreen;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 30px;
+    grid-gap: 5px; /* specifies width of the grid lines */
+
+/* }  */
+
+aside {
+    /* background-color: crimson; */
+}
+
+main {
+    /* background-color: darkolivegreen; */
+}
+
+footer {
+    background-color: burlywood;
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    height: 50px;
+    /* background-color: #a2cbb6; */
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav > div {
+    
+    margin: 10px 20px;
+}
+
+nav > div:last-child {
+    margin-left: auto;
+}
+
+nav, footer {
+    grid-column: 1 / 3;
+    
+}
